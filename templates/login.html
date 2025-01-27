@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="{{url_for('static' , filename= 'style.css')}}">
+</head>
+<body>
+    <form class="div" method="post" action="http://localhost:5000/login">
+        <img id="logoC" src="{{url_for('static' , filename= 'LojaBike.png')}}" width="200" height="200">
+        <p id="cadas">CADASTRE-SE</p>
+        <input id="ncss" type="text" placeholder="Digite seu nome" name="nome">
+        <input id="scss" type="password" placeholder="Digite sua senha" name="senha">
+        <a href=""><button id="btn">Cadastrar</button></a>
+    </form>
+</body>
+</html>

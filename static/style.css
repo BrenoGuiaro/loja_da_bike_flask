@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.topo {
+    border: 1px solid black;
+    display: flex;
+}
+
+#input {
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 0px 0px 10px;
+    border: 2px solid black;
+    margin: 60px 0px 0px 250px;
+}
+
+.login {
+    width: 200px;
+    height: 30px;
+    margin: 60px 90px 0px 0px;
+    background-color: #ffb000;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 1fr 1fr;
+}
+
+
+#u {
+
+    width: 325px;
+    height: 175px;
+    margin: 50px;
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid black;
+}
+
+
+
+#u2 {
+
+    width: 350px;
+    height: 200px;
+    margin: 50px;
+    grid-column: 2;
+    grid-row: 1;
+   
+}
+
+
+
+#u3 {
+
+    width: 300px;
+    height: 300px;
+    margin: 0px 50px 50px 50px;
+    grid-column: 3;
+    grid-row: 1;
+  
+}
+
+
+
+#u4 {
+    width: 300px;
+    height: 300px;
+    margin: 0px 50px 50px 80px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+
+
+
+#u5 {
+
+    width: 350px;
+    height: 200px;
+    margin: 60px 50px 50px 50px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+
+#u6 {
+
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+
+.div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    border-radius: 4px;
+    margin: 50px 0px 0px 450px;
+}
+
+
+#logoC {
+    grid-column: 1/3;
+    grid-row: 1;
+    margin: 0px 0px 0px 95px;
+}
+
+#cadas {
+    font-size: 20px;
+    font-weight: bold;
+    grid-column: 1/3;
+    grid-row: 2;
+    margin: 0px 0px 0px 130px;
+}
+
+
+#btn {
+    width: 200px;
+    height: 30px;
+    background-color: #ffb000;
+    border-radius: 20px;
+    border: 2px solid black;
+    grid-column: 1/3;
+    grid-row: 5;
+    margin: 0px 0px 0px 100px;
+    cursor: pointer;
+}
+
+#ncss {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    grid-column: 1/3;
+    grid-row: 3;
+    margin: 0px 0px 0px 45px;
+    border: 2px solid black;
+}
+
+
+#scss {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    grid-column: 1/3;
+    grid-row: 4;
+    margin: 0px 0px 0px 45px;
+    border: 2px solid black;
+}
+
+
+#foi {
+    font-size: 20px;
+    margin: 65px 0px 0px 280px;
+}
+
+
+#nome1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 270px 0px 0px 125px;
+}
+
+#preco1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 300px 0px 0px 170px ;
+}
+
+#compra1{
+    background: #ffb000;
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 330px 0px 0px 120px;
+    cursor: pointer;
+}
+
+
+#nome2 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 270px 0px 0px 125px;
+}
+
+#preco2 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 300px 0px 0px 170px ;
+}
+
+#compra2{
+    background: #ffb000;
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 330px 0px 0px 120px;
+    cursor: pointer;
+}
+
+
+
+
+#nome3 {
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 270px 0px 0px 100px;
+}
+
+#preco3 {
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 300px 0px 0px 170px ;
+}
+
+#compra3{
+    background: #ffb000;
+    grid-column: 3;
+    grid-row: 1;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 330px 0px 0px 120px;
+    cursor: pointer;
+}
+
+
+
+
+#nome4{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 270px 0px 0px 100px;
+}
+
+#preco4 {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 300px 0px 0px 170px ;
+}
+
+#compra4{
+    background: #ffb000;
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 330px 0px 0px 120px;
+    cursor: pointer;
+}
+
+
+
+
+
+#nome5{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 275px 0px 0px 60px;
+}
+
+#preco5 {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 300px 0px 0px 170px ;
+}
+
+#compra5{
+    background: #ffb000;
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 330px 0px 0px 120px;
+    cursor: pointer;
+}
+
+
+
+
+#nome6{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 275px 0px 0px 100px;
+}
+
+#preco6 {
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 300px 0px 0px 170px ;
+}
+
+#compra6{
+    background: #ffb000;
+    grid-column: 3;
+    grid-row: 2;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 330px 0px 0px 120px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////*/
+
+
+
+
+.quadro{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 0px 0px 350px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+#compraT{
+    font-size: 40px ;
+    font-weight: bold;
+    color: green;
+    margin: 50px 0px 0px 30px ;
+}
+
+
+#sucesso{
+    width: 200px;
+    height: 200px;
+    margin: 150px 0px 0px 200px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static' , filename= 'style.css')}}">
+    <script src="{{url_for('static' , filename= 'index.js')}}"></script>
+</head>
+<body>
+    <header class="topo"> 
+        <img src="{{url_for('static' , filename= 'LojaBike.png')}}" src="{{url_for('static' , filename= 'LojaBike.png')}}{{url_for('static' , filename= 'LojaBike.png')}}" width="180" height="170">
+        <input id="input" type="text" placeholder="Digite aqui o que voçê procura...">
+        <a href="/inicio"><button class="login" name="login">Cadastre-se</button></a>
+    </header>
+
+    <section class="grid">
+
+        <img src="{{url_for('static' , filename= 'bike1.jpg')}}" id="u">
+        <p id="nome1">Hupi Naja 2019-Roxa</p>
+        <p id="preco1">R$:3250,99</p>
+        <button id="compra1" onclick="compra()">Comprar</button>
+
+
+        <img src="{{url_for('static' , filename= 'bike2.jpg')}}" id="u2">
+        <p id="nome2">KSW Aro 29-Azul</p>
+        <p id="preco2">R$:1399,99</p>
+        <button id="compra2" onclick="compra()">Comprar</button>
+
+        <img src="{{url_for('static' , filename= 'bike3.jpg')}}" id="u3">
+        <p id="nome3">GTS feel Aro 29-Azul e Preto</p>
+        <p id="preco3">R$:849,99</p>
+        <button id="compra3" onclick="compra()">Comprar</button>
+
+        <img src="{{url_for('static' , filename= 'bike4.jpg')}}" id="u4">
+        <p id="nome4">MTB Aro 29 GTA NX11-Tifany</p>
+        <p id="preco4">R$:1279,99</p>
+        <button id="compra4" onclick="compra()" >Comprar</button>
+
+
+        <img src="{{url_for('static' , filename= 'bike5.jpg')}}" id="u5">
+        <p id="nome5">Track Bikes Aro 29-Verde Neon e Preto</p>
+        <p id="preco5">R$:1279,99</p>
+        <button id="compra5" onclick="compra()">Comprar</button>
+
+        <img src="{{url_for('static' , filename= 'bike6.webp')}}" id="u6">
+        <p id="nome6">XT29 Aro29  -Verde e Preto </p>
+        <p id="preco6">R$:1400,99</p>
+        <button id="compra6" onclick="compra()">Comprar</button>
+    </section>
+
+
+</body>
+</html>
