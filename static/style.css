@@ -36,6 +36,7 @@
     display: grid;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 50px;
 }
 
 

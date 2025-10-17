@@ -8,7 +8,7 @@ def home():
 
 @app.route('/sucesso/<name>')
 def sucesso(name):
-    return render_template('gg.html', name = name)
+    return render_template('login_efetuado.html', name = name)
 
 @app.route('/compra')
 def compra():
